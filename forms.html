@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h2>Regisration Page</h2>
+    <form>
+        <fieldset>
+        <label for="">Firstname</label>
+        <input type="text" id="fname" name="fname" placeholder="enter firstname"><br><br>
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lname" required placeholder="enter last name"><br><br>
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" required placeholder="enter password"><br><br>
+        <label for="dob">Date of Birth</label>
+        <input type="date" id="dob" name="dob"><br><br>
+        <label for="pass">Password</label>
+        <input type="password" id="pass" name="pass" placeholder="enter password"><br><br>
+       <label for="custom">custom</label>
+       <input type="radio" id="custom" name="gender">
+        <label for="female">female</label>
+        <input type="radio" id="female" name="gender">
+        <label for="male">male</label>
+        <input type="radio" id="male" name="gender" required>
+        <input type="submit" value="Register"><br><br>
+        <label for="course">course</label>
+        <select name="course" id="course">
+            <option value="js">Javascript</option>
+            <option value="ds">data science</option>
+            <option value="cc">cloud computing</option>
+            <option value="sa">system analyst</option>
+            <option value="cs">cyber security</option>
+            <option value="do">DevOps</option>
+        </select><br><br>
+        <label for="uploads">upload pic</label>
+        <input type="file" id="uploads" name="profile pic">
+        </fieldset>
+       
+    </form>
+</body>
+</html>

@@ -1,0 +1,12 @@
+ol{
+    color: aqua;
+    
+}
+table{
+    width: 75%;
+    border-collapse: collapse;
+}
+th ,td{
+    border: 2px solid red;
+    padding: 15px  
+}

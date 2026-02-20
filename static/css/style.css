@@ -1,0 +1,24 @@
+body{
+    background-color: whitesmoke;
+}
+ul{
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+    background-color: greenyellow;
+}
+li{
+    float: left;
+}
+li a {
+    padding: 30px ;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+li a:hover{
+    background-color: black
+}
